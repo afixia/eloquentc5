@@ -1,5 +1,7 @@
 {
-    "require": {
-        "afixia/eloquentc5": "5.6.01"
+    "name": "afixia/eloquentc5",
+    "description": "Bootstraps Laravel's Eloquent for use in Comcrete 5.7.4+",
+	"require": {
+        "php": ">=5.5.0"
     }
 }
