@@ -6,46 +6,17 @@ Requirements
 
 - Concrete 5.7.4+
 - PHP 5.5+
-- Composer installed globally or latest composer.phar installed locally in the Concrete5 ROOT directory
-- curl (if composer is not installed)
-- depending on your server's permissions, some commands may need the 'sudo' command before each installation
 
 For Concrete 5.6, please see this branch:
 (repo coming soon)
 
 Instructions
 
-If composer is installed and working, skip to 'Install The Eloquent Package via Composer' Step
-
-SSH into your server (if working remotely)
+Download zip file from github and extract to your Concrete5 ROOT directory, your structure should look like this:
 ```
-ssh user@remote-host.com
-```
-
-Change to your Concrete5 installation ROOT directory (optional depending on SSH home directory)
-```
-cd mywebsite.com/www/
-```
-
-Install Composer Globally (if not installed already!)
-```
-curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
-```
-
-Install Composer Globally (if not installed already!)
-```
-curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
-```
-
-Install The Eloquent Package via composer:
-```
-composer require afixia/eloquentc5 dev-master
-```
-
-Update 3rd party vendor information and install missing components:
-```
-cd packages/eloquent/libraries
-composer update
+application
+...
+packages/eloquent
 ```
 
 Go to Concrete5 Dashboard and Install Package
