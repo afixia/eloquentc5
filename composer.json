@@ -1,10 +1,8 @@
 {
     "name": "afixia/eloquentc5",
     "description": "Bootstraps Laravel's Eloquent for use in Concrete 5.7.4+",
+	"minimum-stability": "dev",
 	"require": {
         "php": ">=5.5.0"
-    },
-	"require-dev": {
-		"afixia/eloquentc5": "dev-master"
-	}
+    }
 }
